@@ -1,0 +1,2632 @@
+[
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:1, 6:2"
+  ],
+  "expected": "Repeating every 4 and 6 days: the pattern restarts after 12 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:1, 6:2"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:1, 6:3"
+  ],
+  "expected": "Repeating every 4 and 6 days: the pattern restarts after 12 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:1, 6:3"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 9, then every 12 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "6:2, 8:4, 9:5"
+  ],
+  "expected": "Repeating every 6, 8 and 9 days: the pattern restarts after 72 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "6:2, 8:4, 9:5"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 68, then every 72 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "1:1, 1:1"
+  ],
+  "expected": "Repeating every 1 and 1 day: the pattern restarts after 1 day, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "1:1, 1:1"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 1, then every 1 day after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "1:5, 7:3"
+  ],
+  "expected": "Repeating every 1 and 7 days: the pattern restarts after 7 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "1:5, 7:3"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 10, then every 7 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "100:10000, 99:9999"
+  ],
+  "expected": "Repeating every 100 and 99 days: the pattern restarts after 9900 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "100:10000, 99:9999"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 19800, then every 9900 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "100:1, 99:1, 98:1, 97:1"
+  ],
+  "expected": "Repeating every 100, 99, 98 and 97 days: the pattern restarts after 47054700 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "100:1, 99:1, 98:1, 97:1"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 1, then every 47054700 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "7:1, 7:1"
+  ],
+  "expected": "Repeating every 7 and 7 days: the pattern restarts after 7 days, the least common multiple. The greatest common divisor is 7."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "7:1, 7:1"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 1, then every 7 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "7:1, 7:2"
+  ],
+  "expected": "Repeating every 7 and 7 days: the pattern restarts after 7 days, the least common multiple. The greatest common divisor is 7."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "7:1, 7:2"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "7:3, 14:10"
+  ],
+  "expected": "Repeating every 7 and 14 days: the pattern restarts after 14 days, the least common multiple. The greatest common divisor is 7."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "7:3, 14:10"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 10, then every 14 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "12:12, 18:18"
+  ],
+  "expected": "Repeating every 12 and 18 days: the pattern restarts after 36 days, the least common multiple. The greatest common divisor is 6."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "12:12, 18:18"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 36, then every 36 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "2:1, 3:1, 5:1, 7:1"
+  ],
+  "expected": "Repeating every 2, 3, 5 and 7 days: the pattern restarts after 210 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "2:1, 3:1, 5:1, 7:1"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 1, then every 210 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "10:7, 15:2"
+  ],
+  "expected": "Repeating every 10 and 15 days: the pattern restarts after 30 days, the least common multiple. The greatest common divisor is 5."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "10:7, 15:2"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 17, then every 30 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:9, 6:3"
+  ],
+  "expected": "Repeating every 4 and 6 days: the pattern restarts after 12 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:9, 6:3"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 9, then every 12 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   " 4 : 1 , 6 : 3 "
+  ],
+  "expected": "Repeating every 4 and 6 days: the pattern restarts after 12 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   " 4 : 1 , 6 : 3 "
+  ],
+  "expected": "All 2 land on the same day for the first time on day 9, then every 12 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:1, 6:2, 8:3, 9:4, 10:5"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:1, 6:2, 8:3, 9:4, 10:5"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:0, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:0, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "0:1, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "0:1, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "101:1, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "101:1, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:10001, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:10001, 6:1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4:1;6:2"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4:1;6:2"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "4-1, 6-2"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "4-1, 6-2"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   ""
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   ""
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "a:b, c:d"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "a:b, c:d"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "6:1,6:1,6:1,6:1"
+  ],
+  "expected": "Repeating every 6, 6, 6 and 6 days: the pattern restarts after 6 days, the least common multiple. The greatest common divisor is 6."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "6:1,6:1,6:1,6:1"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 1, then every 6 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "60:1, 45:1, 20:1"
+  ],
+  "expected": "Repeating every 60, 45 and 20 days: the pattern restarts after 180 days, the least common multiple. The greatest common divisor is 5."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "60:1, 45:1, 20:1"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 1, then every 180 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "31:9536, 85:5710, 20:5923"
+  ],
+  "expected": "Repeating every 31, 85 and 20 days: the pattern restarts after 10540 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "31:9536, 85:5710, 20:5923"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "29:749, 12:451"
+  ],
+  "expected": "Repeating every 29 and 12 days: the pattern restarts after 348 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "29:749, 12:451"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 1039, then every 348 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "63:4225, 70:5057, 27:6824, 89:6540"
+  ],
+  "expected": "Repeating every 63, 70, 27 and 89 days: the pattern restarts after 168210 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "63:4225, 70:5057, 27:6824, 89:6540"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "36:9466, 87:6404, 12:6574"
+  ],
+  "expected": "Repeating every 36, 87 and 12 days: the pattern restarts after 1044 days, the least common multiple. The greatest common divisor is 3."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "36:9466, 87:6404, 12:6574"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "35:7838, 82:2547"
+  ],
+  "expected": "Repeating every 35 and 82 days: the pattern restarts after 2870 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "35:7838, 82:2547"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 9763, then every 2870 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "52:2754, 80:437"
+  ],
+  "expected": "Repeating every 52 and 80 days: the pattern restarts after 1040 days, the least common multiple. The greatest common divisor is 4."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "52:2754, 80:437"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "61:333, 99:1888"
+  ],
+  "expected": "Repeating every 61 and 99 days: the pattern restarts after 6039 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "61:333, 99:1888"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 7531, then every 6039 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "51:3616, 99:9239, 87:5500"
+  ],
+  "expected": "Repeating every 51, 99 and 87 days: the pattern restarts after 48807 days, the least common multiple. The greatest common divisor is 3."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "51:3616, 99:9239, 87:5500"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "1:6359, 62:3729"
+  ],
+  "expected": "Repeating every 1 and 62 days: the pattern restarts after 62 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "1:6359, 62:3729"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 6395, then every 62 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "77:7045, 86:4810, 79:4230, 34:9120"
+  ],
+  "expected": "Repeating every 77, 86, 79 and 34 days: the pattern restarts after 8893346 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "77:7045, 86:4810, 79:4230, 34:9120"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 1359396, then every 8893346 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "91:695, 57:6473, 48:164, 49:6348"
+  ],
+  "expected": "Repeating every 91, 57, 48 and 49 days: the pattern restarts after 580944 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "91:695, 57:6473, 48:164, 49:6348"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "84:1297, 44:7176, 73:8423"
+  ],
+  "expected": "Repeating every 84, 44 and 73 days: the pattern restarts after 67452 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "84:1297, 44:7176, 73:8423"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "30:2982, 86:3307, 6:6514"
+  ],
+  "expected": "Repeating every 30, 86 and 6 days: the pattern restarts after 1290 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "30:2982, 86:3307, 6:6514"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "42:11, 52:4251, 2:3838, 93:6595"
+  ],
+  "expected": "Repeating every 42, 52, 2 and 93 days: the pattern restarts after 33852 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "42:11, 52:4251, 2:3838, 93:6595"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "10:3571, 48:5846"
+  ],
+  "expected": "Repeating every 10 and 48 days: the pattern restarts after 240 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "10:3571, 48:5846"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "92:9901, 94:8636, 72:1804, 11:3609"
+  ],
+  "expected": "Repeating every 92, 94, 72 and 11 days: the pattern restarts after 856152 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "92:9901, 94:8636, 72:1804, 11:3609"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "47:6789, 29:8788, 99:2737, 37:1690"
+  ],
+  "expected": "Repeating every 47, 29, 99 and 37 days: the pattern restarts after 4992669 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "47:6789, 29:8788, 99:2737, 37:1690"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 1277857, then every 4992669 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "54:7555, 66:1212, 1:8762, 75:3127"
+  ],
+  "expected": "Repeating every 54, 66, 1 and 75 days: the pattern restarts after 14850 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "54:7555, 66:1212, 1:8762, 75:3127"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "67:9136, 42:6365"
+  ],
+  "expected": "Repeating every 67 and 42 days: the pattern restarts after 2814 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "67:9136, 42:6365"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 11615, then every 2814 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "24:7886, 53:1696, 61:1243, 1:9287"
+  ],
+  "expected": "Repeating every 24, 53, 61 and 1 day: the pattern restarts after 77592 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "24:7886, 53:1696, 61:1243, 1:9287"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 85118, then every 77592 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "91:7865, 96:7763, 95:1889"
+  ],
+  "expected": "Repeating every 91, 96 and 95 days: the pattern restarts after 829920 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "91:7865, 96:7763, 95:1889"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 766259, then every 829920 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "45:1360, 82:221, 88:5830"
+  ],
+  "expected": "Repeating every 45, 82 and 88 days: the pattern restarts after 162360 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "45:1360, 82:221, 88:5830"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "73:6857, 99:5812"
+  ],
+  "expected": "Repeating every 73 and 99 days: the pattern restarts after 7227 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "73:6857, 99:5812"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 10069, then every 7227 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "34:3566, 32:1358, 65:9306"
+  ],
+  "expected": "Repeating every 34, 32 and 65 days: the pattern restarts after 35360 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "34:3566, 32:1358, 65:9306"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 33486, then every 35360 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "5:2261, 75:4477"
+  ],
+  "expected": "Repeating every 5 and 75 days: the pattern restarts after 75 days, the least common multiple. The greatest common divisor is 5."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "5:2261, 75:4477"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "49:8485, 11:6275, 21:9927"
+  ],
+  "expected": "Repeating every 49, 11 and 21 days: the pattern restarts after 1617 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "49:8485, 11:6275, 21:9927"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 11082, then every 1617 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "27:7494, 10:8704"
+  ],
+  "expected": "Repeating every 27 and 10 days: the pattern restarts after 270 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "27:7494, 10:8704"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 8844, then every 270 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "93:1151, 77:9184, 29:8107, 64:118"
+  ],
+  "expected": "Repeating every 93, 77, 29 and 64 days: the pattern restarts after 13290816 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "93:1151, 77:9184, 29:8107, 64:118"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 3891062, then every 13290816 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "30:1088, 51:4297, 93:8989, 92:5450"
+  ],
+  "expected": "Repeating every 30, 51, 93 and 92 days: the pattern restarts after 727260 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "30:1088, 51:4297, 93:8989, 92:5450"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "28:9233, 14:3163"
+  ],
+  "expected": "Repeating every 28 and 14 days: the pattern restarts after 28 days, the least common multiple. The greatest common divisor is 14."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "28:9233, 14:3163"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "67:6313, 31:4854, 47:2222"
+  ],
+  "expected": "Repeating every 67, 31 and 47 days: the pattern restarts after 97619 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "67:6313, 31:4854, 47:2222"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 92274, then every 97619 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "58:8755, 14:4622, 30:2789"
+  ],
+  "expected": "Repeating every 58, 14 and 30 days: the pattern restarts after 6090 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "58:8755, 14:4622, 30:2789"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "100:2464, 42:5743"
+  ],
+  "expected": "Repeating every 100 and 42 days: the pattern restarts after 2100 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "100:2464, 42:5743"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "81:4628, 8:5920"
+  ],
+  "expected": "Repeating every 81 and 8 days: the pattern restarts after 648 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "81:4628, 8:5920"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 6248, then every 648 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "39:6502, 9:8146, 5:2571, 31:7074"
+  ],
+  "expected": "Repeating every 39, 9, 5 and 31 days: the pattern restarts after 18135 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "39:6502, 9:8146, 5:2571, 31:7074"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 8686, then every 18135 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "39:4450, 62:9754"
+  ],
+  "expected": "Repeating every 39 and 62 days: the pattern restarts after 2418 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "39:4450, 62:9754"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 9754, then every 2418 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "95:6847, 18:9669, 100:1806"
+  ],
+  "expected": "Repeating every 95, 18 and 100 days: the pattern restarts after 17100 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "95:6847, 18:9669, 100:1806"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "91:9672, 4:433, 95:6381"
+  ],
+  "expected": "Repeating every 91, 4 and 95 days: the pattern restarts after 34580 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "91:9672, 4:433, 95:6381"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 13221, then every 34580 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "38:9669, 89:3024, 71:432, 52:5234"
+  ],
+  "expected": "Repeating every 38, 89, 71 and 52 days: the pattern restarts after 6243172 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "38:9669, 89:3024, 71:432, 52:5234"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "24:2309, 55:8124"
+  ],
+  "expected": "Repeating every 24 and 55 days: the pattern restarts after 1320 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "24:2309, 55:8124"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 9389, then every 1320 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "80:7305, 91:5756, 76:9462, 34:664"
+  ],
+  "expected": "Repeating every 80, 91, 76 and 34 days: the pattern restarts after 2351440 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "80:7305, 91:5756, 76:9462, 34:664"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "88:893, 83:1768, 7:6079, 30:7806"
+  ],
+  "expected": "Repeating every 88, 83, 7 and 30 days: the pattern restarts after 766920 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "88:893, 83:1768, 7:6079, 30:7806"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "60:4124, 85:565, 83:3909"
+  ],
+  "expected": "Repeating every 60, 85 and 83 days: the pattern restarts after 84660 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "60:4124, 85:565, 83:3909"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "99:431, 84:4500, 26:3303"
+  ],
+  "expected": "Repeating every 99, 84 and 26 days: the pattern restarts after 36036 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "99:431, 84:4500, 26:3303"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "26:8112, 9:4752"
+  ],
+  "expected": "Repeating every 26 and 9 days: the pattern restarts after 234 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "26:8112, 9:4752"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 8190, then every 234 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "15:18, 3:47, 7:25"
+  ],
+  "expected": "Repeating every 15, 3 and 7 days: the pattern restarts after 105 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "15:18, 3:47, 7:25"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "17:13, 13:34, 3:41, 6:58"
+  ],
+  "expected": "Repeating every 17, 13, 3 and 6 days: the pattern restarts after 1326 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "17:13, 13:34, 3:41, 6:58"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "24:49, 26:14"
+  ],
+  "expected": "Repeating every 24 and 26 days: the pattern restarts after 312 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "24:49, 26:14"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "19:49, 10:54"
+  ],
+  "expected": "Repeating every 19 and 10 days: the pattern restarts after 190 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "19:49, 10:54"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 144, then every 190 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "25:40, 26:56, 10:30"
+  ],
+  "expected": "Repeating every 25, 26 and 10 days: the pattern restarts after 650 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "25:40, 26:56, 10:30"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 290, then every 650 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "6:2, 7:15"
+  ],
+  "expected": "Repeating every 6 and 7 days: the pattern restarts after 42 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "6:2, 7:15"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 50, then every 42 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "19:47, 28:26"
+  ],
+  "expected": "Repeating every 19 and 28 days: the pattern restarts after 532 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "19:47, 28:26"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 446, then every 532 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "25:9, 9:40"
+  ],
+  "expected": "Repeating every 25 and 9 days: the pattern restarts after 225 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "25:9, 9:40"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 184, then every 225 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "19:18, 15:52, 28:32, 14:31"
+  ],
+  "expected": "Repeating every 19, 15, 28 and 14 days: the pattern restarts after 7980 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "19:18, 15:52, 28:32, 14:31"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "16:2, 19:60"
+  ],
+  "expected": "Repeating every 16 and 19 days: the pattern restarts after 304 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "16:2, 19:60"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 98, then every 304 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "20:38, 5:2, 19:30, 25:10"
+  ],
+  "expected": "Repeating every 20, 5, 19 and 25 days: the pattern restarts after 1900 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "20:38, 5:2, 19:30, 25:10"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "28:41, 22:44, 8:58"
+  ],
+  "expected": "Repeating every 28, 22 and 8 days: the pattern restarts after 616 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "28:41, 22:44, 8:58"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "22:14, 23:4, 21:28"
+  ],
+  "expected": "Repeating every 22, 23 and 21 days: the pattern restarts after 10626 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "22:14, 23:4, 21:28"
+  ],
+  "expected": "All 3 land on the same day for the first time on day 1246, then every 10626 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "6:60, 8:25"
+  ],
+  "expected": "Repeating every 6 and 8 days: the pattern restarts after 24 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "6:60, 8:25"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "24:23, 16:39, 22:12, 2:15"
+  ],
+  "expected": "Repeating every 24, 16, 22 and 2 days: the pattern restarts after 528 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "24:23, 16:39, 22:12, 2:15"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "11:43, 9:16"
+  ],
+  "expected": "Repeating every 11 and 9 days: the pattern restarts after 99 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "11:43, 9:16"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 43, then every 99 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "12:4, 17:13, 30:33, 14:34"
+  ],
+  "expected": "Repeating every 12, 17, 30 and 14 days: the pattern restarts after 7140 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "12:4, 17:13, 30:33, 14:34"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "2:4, 28:47, 26:6"
+  ],
+  "expected": "Repeating every 2, 28 and 26 days: the pattern restarts after 364 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "2:4, 28:47, 26:6"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "25:5, 6:5, 22:31, 3:8"
+  ],
+  "expected": "Repeating every 25, 6, 22 and 3 days: the pattern restarts after 1650 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "25:5, 6:5, 22:31, 3:8"
+  ],
+  "expected": "All 4 land on the same day for the first time on day 1505, then every 1650 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "13:40, 29:11"
+  ],
+  "expected": "Repeating every 13 and 29 days: the pattern restarts after 377 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "13:40, 29:11"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 40, then every 377 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "16:4, 16:52"
+  ],
+  "expected": "Repeating every 16 and 16 days: the pattern restarts after 16 days, the least common multiple. The greatest common divisor is 16."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "16:4, 16:52"
+  ],
+  "expected": "All 2 land on the same day for the first time on day 52, then every 16 days after that."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "26:46, 24:6, 12:50, 14:41"
+  ],
+  "expected": "Repeating every 26, 24, 12 and 14 days: the pattern restarts after 2184 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "26:46, 24:6, 12:50, 14:41"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "8:10, 18:33"
+  ],
+  "expected": "Repeating every 8 and 18 days: the pattern restarts after 72 days, the least common multiple. The greatest common divisor is 2."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "8:10, 18:33"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "21:9, 3:59, 12:29"
+  ],
+  "expected": "Repeating every 21, 3 and 12 days: the pattern restarts after 84 days, the least common multiple. The greatest common divisor is 3."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "21:9, 3:59, 12:29"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "cycleTruth",
+  "args": [
+   "8:45, 25:29, 23:21, 20:27"
+  ],
+  "expected": "Repeating every 8, 25, 23 and 20 days: the pattern restarts after 4600 days, the least common multiple. The greatest common divisor is 1."
+ },
+ {
+  "fn": "meetingTruth",
+  "args": [
+   "8:45, 25:29, 23:21, 20:27"
+  ],
+  "expected": "These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:2",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 15 times, B lands 10 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:2",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 15 times, B lands 10 times. All of them land on the same day 5 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:2, 8:4, 9:5",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 10 times, B lands 8 times, C lands 7 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:2, 8:4, 9:5",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "1:1, 1:1",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 60 times, B lands 60 times. All of them land on the same day 60 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "1:1, 1:1",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "1:5, 7:3",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 56 times, B lands 9 times. All of them land on the same day 8 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "1:5, 7:3",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "100:10000, 99:9999",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "100:10000, 99:9999",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "100:1, 99:1, 98:1, 97:1",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 1 time, C lands 1 time, D lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "100:1, 99:1, 98:1, 97:1",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 1 time, C lands 1 time, D lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "7:1, 7:1",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 9 times, B lands 9 times. All of them land on the same day 9 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "7:1, 7:1",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "7:1, 7:2",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 9 times, B lands 9 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "7:1, 7:2",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "7:3, 14:10",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 9 times, B lands 4 times. All of them land on the same day 4 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "7:3, 14:10",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "12:12, 18:18",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 5 times, B lands 3 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "12:12, 18:18",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "2:1, 3:1, 5:1, 7:1",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 30 times, B lands 20 times, C lands 12 times, D lands 9 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "2:1, 3:1, 5:1, 7:1",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 1 time, C lands 1 time, D lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "10:7, 15:2",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 6 times, B lands 4 times. All of them land on the same day 2 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "10:7, 15:2",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:9, 6:3",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 13 times, B lands 10 times. All of them land on the same day 5 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:9, 6:3",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   " 4 : 1 , 6 : 3 ",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 15 times, B lands 10 times. All of them land on the same day 5 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   " 4 : 1 , 6 : 3 ",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:2, 8:3, 9:4, 10:5",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:2, 8:3, 9:4, 10:5",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:0, 6:1",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:0, 6:1",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "0:1, 6:1",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "0:1, 6:1",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "101:1, 6:1",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "101:1, 6:1",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:10001, 6:1",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:10001, 6:1",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1;6:2",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1;6:2",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4-1, 6-2",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4-1, 6-2",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "a:b, c:d",
+   "60"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "a:b, c:d",
+   "1"
+  ],
+  "expected": "ERR:enter 2 to 4 repeats as period:first day, separated by commas, for example 4:1, 6:2 (periods 1 to 100 days, first days 1 to 10000)"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:1,6:1,6:1,6:1",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 10 times, B lands 10 times, C lands 10 times, D lands 10 times. All of them land on the same day 10 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:1,6:1,6:1,6:1",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 1 time, C lands 1 time, D lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "60:1, 45:1, 20:1",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 2 times, C lands 3 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "60:1, 45:1, 20:1",
+   "1"
+  ],
+  "expected": "On day 1: A lands 1 time, B lands 1 time, C lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "31:9536, 85:5710, 20:5923",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "31:9536, 85:5710, 20:5923",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "29:749, 12:451",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "29:749, 12:451",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "63:4225, 70:5057, 27:6824, 89:6540",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "63:4225, 70:5057, 27:6824, 89:6540",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "80:7305, 91:5756, 76:9462, 34:664",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "80:7305, 91:5756, 76:9462, 34:664",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "80:7305, 91:5756, 76:9462, 34:664",
+   "2568"
+  ],
+  "expected": "In days 1 to 2568: A lands 0 times, B lands 0 times, C lands 0 times, D lands 57 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "88:893, 83:1768, 7:6079, 30:7806",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "88:893, 83:1768, 7:6079, 30:7806",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "88:893, 83:1768, 7:6079, 30:7806",
+   "302"
+  ],
+  "expected": "In days 1 to 302: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "60:4124, 85:565, 83:3909",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "60:4124, 85:565, 83:3909",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "60:4124, 85:565, 83:3909",
+   "545"
+  ],
+  "expected": "In days 1 to 545: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "99:431, 84:4500, 26:3303",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "99:431, 84:4500, 26:3303",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "99:431, 84:4500, 26:3303",
+   "566"
+  ],
+  "expected": "In days 1 to 566: A lands 2 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "26:8112, 9:4752",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "26:8112, 9:4752",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "26:8112, 9:4752",
+   "792"
+  ],
+  "expected": "In days 1 to 792: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "15:18, 3:47, 7:25",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 5 times, C lands 6 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "15:18, 3:47, 7:25",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "15:18, 3:47, 7:25",
+   "508"
+  ],
+  "expected": "In days 1 to 508: A lands 33 times, B lands 154 times, C lands 70 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "17:13, 13:34, 3:41, 6:58",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 3 times, C lands 7 times, D lands 1 time. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "17:13, 13:34, 3:41, 6:58",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "17:13, 13:34, 3:41, 6:58",
+   "399"
+  ],
+  "expected": "In days 1 to 399: A lands 23 times, B lands 29 times, C lands 120 times, D lands 57 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "24:49, 26:14",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "24:49, 26:14",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "24:49, 26:14",
+   "2130"
+  ],
+  "expected": "In days 1 to 2130: A lands 87 times, B lands 82 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:49, 10:54",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 1 time. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:49, 10:54",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:49, 10:54",
+   "404"
+  ],
+  "expected": "In days 1 to 404: A lands 19 times, B lands 36 times. All of them land on the same day 2 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:40, 26:56, 10:30",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 1 time, C lands 4 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:40, 26:56, 10:30",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:40, 26:56, 10:30",
+   "2228"
+  ],
+  "expected": "In days 1 to 2228: A lands 88 times, B lands 84 times, C lands 220 times. All of them land on the same day 3 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:2, 7:15",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 10 times, B lands 7 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:2, 7:15",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:2, 7:15",
+   "12"
+  ],
+  "expected": "In days 1 to 12: A lands 2 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:47, 28:26",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:47, 28:26",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:47, 28:26",
+   "440"
+  ],
+  "expected": "In days 1 to 440: A lands 21 times, B lands 15 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:9, 9:40",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 3 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:9, 9:40",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:9, 9:40",
+   "643"
+  ],
+  "expected": "In days 1 to 643: A lands 26 times, B lands 68 times. All of them land on the same day 3 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:18, 15:52, 28:32, 14:31",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 1 time, C lands 2 times, D lands 3 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:18, 15:52, 28:32, 14:31",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "19:18, 15:52, 28:32, 14:31",
+   "341"
+  ],
+  "expected": "In days 1 to 341: A lands 18 times, B lands 20 times, C lands 12 times, D lands 23 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "16:2, 19:60",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 4 times, B lands 1 time. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "16:2, 19:60",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "16:2, 19:60",
+   "211"
+  ],
+  "expected": "In days 1 to 211: A lands 14 times, B lands 8 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "20:38, 5:2, 19:30, 25:10",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 2 times, B lands 12 times, C lands 2 times, D lands 3 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "20:38, 5:2, 19:30, 25:10",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "20:38, 5:2, 19:30, 25:10",
+   "1821"
+  ],
+  "expected": "In days 1 to 1821: A lands 90 times, B lands 364 times, C lands 95 times, D lands 73 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "28:41, 22:44, 8:58",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 1 time, C lands 1 time. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "28:41, 22:44, 8:58",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "28:41, 22:44, 8:58",
+   "1571"
+  ],
+  "expected": "In days 1 to 1571: A lands 55 times, B lands 70 times, C lands 190 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "22:14, 23:4, 21:28",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 3 times, C lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "22:14, 23:4, 21:28",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "22:14, 23:4, 21:28",
+   "706"
+  ],
+  "expected": "In days 1 to 706: A lands 32 times, B lands 31 times, C lands 33 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:60, 8:25",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 5 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:60, 8:25",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "6:60, 8:25",
+   "1159"
+  ],
+  "expected": "In days 1 to 1159: A lands 184 times, B lands 142 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "24:23, 16:39, 22:12, 2:15",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 2 times, B lands 2 times, C lands 3 times, D lands 23 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "24:23, 16:39, 22:12, 2:15",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "24:23, 16:39, 22:12, 2:15",
+   "662"
+  ],
+  "expected": "In days 1 to 662: A lands 27 times, B lands 39 times, C lands 30 times, D lands 324 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "11:43, 9:16",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 2 times, B lands 5 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "11:43, 9:16",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "11:43, 9:16",
+   "2211"
+  ],
+  "expected": "In days 1 to 2211: A lands 198 times, B lands 244 times. All of them land on the same day 22 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "12:4, 17:13, 30:33, 14:34",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 5 times, B lands 3 times, C lands 1 time, D lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "12:4, 17:13, 30:33, 14:34",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "12:4, 17:13, 30:33, 14:34",
+   "907"
+  ],
+  "expected": "In days 1 to 907: A lands 76 times, B lands 53 times, C lands 30 times, D lands 63 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "2:4, 28:47, 26:6",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 29 times, B lands 1 time, C lands 3 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "2:4, 28:47, 26:6",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "2:4, 28:47, 26:6",
+   "639"
+  ],
+  "expected": "In days 1 to 639: A lands 318 times, B lands 22 times, C lands 25 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:5, 6:5, 22:31, 3:8",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 10 times, C lands 2 times, D lands 18 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:5, 6:5, 22:31, 3:8",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "25:5, 6:5, 22:31, 3:8",
+   "2657"
+  ],
+  "expected": "In days 1 to 2657: A lands 107 times, B lands 443 times, C lands 120 times, D lands 884 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "13:40, 29:11",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 2 times, B lands 2 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "13:40, 29:11",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "13:40, 29:11",
+   "393"
+  ],
+  "expected": "In days 1 to 393: A lands 28 times, B lands 14 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "16:4, 16:52",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 4 times, B lands 1 time. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "16:4, 16:52",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "16:4, 16:52",
+   "44"
+  ],
+  "expected": "In days 1 to 44: A lands 3 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "26:46, 24:6, 12:50, 14:41",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 1 time, B lands 3 times, C lands 1 time, D lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "26:46, 24:6, 12:50, 14:41",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "26:46, 24:6, 12:50, 14:41",
+   "2014"
+  ],
+  "expected": "In days 1 to 2014: A lands 76 times, B lands 84 times, C lands 164 times, D lands 141 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "8:10, 18:33",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 7 times, B lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "8:10, 18:33",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "8:10, 18:33",
+   "2358"
+  ],
+  "expected": "In days 1 to 2358: A lands 294 times, B lands 130 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "21:9, 3:59, 12:29",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 3 times, B lands 1 time, C lands 3 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "21:9, 3:59, 12:29",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "21:9, 3:59, 12:29",
+   "2556"
+  ],
+  "expected": "In days 1 to 2556: A lands 122 times, B lands 833 times, C lands 211 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "8:45, 25:29, 23:21, 20:27",
+   "60"
+  ],
+  "expected": "In days 1 to 60: A lands 2 times, B lands 2 times, C lands 2 times, D lands 2 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "8:45, 25:29, 23:21, 20:27",
+   "1"
+  ],
+  "expected": "On day 1: A lands 0 times, B lands 0 times, C lands 0 times, D lands 0 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "8:45, 25:29, 23:21, 20:27",
+   "1327"
+  ],
+  "expected": "In days 1 to 1327: A lands 161 times, B lands 52 times, C lands 57 times, D lands 66 times. All of them land on the same day 0 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "0"
+  ],
+  "expected": "ERR:the number of days must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "100001"
+  ],
+  "expected": "ERR:the number of days must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "100000"
+  ],
+  "expected": "In days 1 to 100000: A lands 25000 times, B lands 16667 times. All of them land on the same day 8333 times."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "abc"
+  ],
+  "expected": "ERR:the number of days must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   ""
+  ],
+  "expected": "ERR:the number of days must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   " 12 "
+  ],
+  "expected": "In days 1 to 12: A lands 3 times, B lands 2 times. All of them land on the same day 1 time."
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "1.5"
+  ],
+  "expected": "ERR:the number of days must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "-4"
+  ],
+  "expected": "ERR:the number of days must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "countTruth",
+  "args": [
+   "4:1, 6:3",
+   "0012"
+  ],
+  "expected": "In days 1 to 12: A lands 3 times, B lands 2 times. All of them land on the same day 1 time."
+ }
+]
