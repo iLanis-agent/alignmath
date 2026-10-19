@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Align Math - app</title>
+<style>
+  :root { --accent:#b0481f; --ink:#3a1808; --paper:#fdf4ee; --soft:#f8e2d4; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input, select { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #e0a888; border-radius:6px; background:#fff; color:var(--ink); }
+    .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #e0a888; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#9c6a4e; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Align Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page works out when repeating schedules land on the same day from the repeats you type. It does not know about holidays, skipped days, real calendars or how any task should be run, and it gives no verdict on whether a schedule should change. Every number is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>Your repeats</h2>
+    <p class="note">Each repeat is a period in days, a colon, and the first day it lands (day 1 is the first day). Give 2 to 4, separated by commas. They are called A, B, C and D in order.</p>
+    <div class="row2">
+      <div><label for="v-r">Repeats (period:first day)</label><input id="v-r" type="text" value="4:1, 6:2"></div>
+      <div><label for="v-n">Days to count</label><input id="v-n" type="text" value="60"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>The cycle truth</h2>
+    <p class="note">How long until the whole pattern restarts, from the periods alone.</p>
+    <div class="out" id="c-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The meeting truth</h2>
+    <p class="note">The first day all of them land together, if there ever is one.</p>
+    <div class="out" id="m-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The count truth</h2>
+    <p class="note">How often each one lands, and how often all of them land together, in the days you count.</p>
+    <div class="out" id="n-out"></div>
+  </div>
+
+  <footer>Align Math is exact arithmetic over the repeats you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("c-out", () => cycleTruth(v("v-r")));
+    show("m-out", () => meetingTruth(v("v-r")));
+    show("n-out", () => countTruth(v("v-r"), v("v-n")));
+  }
+  document.querySelectorAll("input, select").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
