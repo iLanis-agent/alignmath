@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Align Math - repeating schedule alignment arithmetic</title>
+<style>
+  :root { --accent:#b0481f; --ink:#3a1808; --paper:#fdf4ee; --soft:#f8e2d4; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#9c6a4e; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Align Math</h1>
+  <p class="lede">A chore every 4 days and another every 6 days, starting on days 1 and 2, never land on the same day.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Align Math works out when repeating schedules land on the same day from the repeats you type. It does not know about holidays, skipped days, real calendars or how any task should be run, and it gives no verdict on whether a schedule should change. Every number is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Repeats 4:1 and 6:2 (period in days, then first day), counted over 60 days.</p>
+  <section>
+    <h2>The cycle truth</h2>
+    <p>Repeating every 4 and 6 days: the pattern restarts after 12 days, the least common multiple. The greatest common divisor is 2.</p>
+  </section>
+  <section>
+    <h2>The meeting truth</h2>
+    <p>These never land on the same day. Each pair of schedules needs the gap between its first days to be a multiple of the greatest common divisor of its two periods, and at least one pair here is not.</p>
+  </section>
+  <section>
+    <h2>The count truth</h2>
+    <p>In days 1 to 60: A lands 15 times, B lands 10 times. All of them land on the same day 0 times.</p>
+  </section>
+  <a class="btn" href="app.html">Run your repeats</a>
+  <footer>Align Math is exact arithmetic over the repeats you enter, nothing more.</footer>
+</main>
+</body>
+</html>
